@@ -28,7 +28,7 @@ const Login = props => {
   };
 
   return (
-    <>
+    <div className="wrapper">
       <div className="Header">
         <h1>Welcome to the Bubble App!</h1>
       </div>
@@ -61,7 +61,7 @@ const Login = props => {
 
         <button>Login</button>
       </form>
-    </>
+    </div>
   );
 };
 
